@@ -8,7 +8,7 @@ let box2 = document.querySelector(".box-display")
 function generatenumbers(){
     let randomNumbers = ""
     for (let i = 0; i < 1000; i++) {
-     randomNumbers += Math.floor(Math.random()*2)       
+     randomNumbers += Math.floor(Math.random()*3)       
     }
    return randomNumbers
 }
@@ -70,14 +70,14 @@ function generatenumbers(){
     })
     const fourthPromise =await new Promise((resolve,reject)=>{
         setTimeout(()=>{
-            display.innerHTML+=`<h1>Number : +9186592.....</h1>`
+            display.innerHTML+=`<h1>Number : +91.....</h1>`
             resolve(5)
           },1000)
           
     })
     const fifthPromise =await new Promise((resolve,reject)=>{
         setTimeout(()=>{
-            display.innerHTML+=`<h1>Fecthing Details..</h1>`
+            display.innerHTML+=`<h1>Hijacking Details..</h1>`
             resolve(6)
           },1000)
           
@@ -128,7 +128,7 @@ function generatenumbers(){
     })
     const fourthPromise =await new Promise((resolve,reject)=>{
         setTimeout(()=>{
-            display.innerHTML+=`<h1>Number : +9186592.....</h1>`
+            display.innerHTML+=`<h1>Number : +91.....</h1>`
             resolve(5)
           },1000)
           
