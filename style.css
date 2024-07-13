@@ -221,4 +221,13 @@ color: rgb(30, 160, 30);
     .display h1{
         font-size: 3.4vh;
     }
+    .mobile-no label{
+        font-size:20px;
+    }
+    .instagram label{
+        font-size:20px;
+    }
+    .display h1{
+        font-size:3vh;
+    }
 }
