@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://www.securitymagazine.com/ext/resources/2023/01/23/hacker-gc04371cad_1920.jpg?1674482112");
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*.main img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   background-position: center;
+}*/
+/*.parent{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}*/
+.container{
+   height: 80%;
+   width: 90%;
+   
+   border-radius: 20px;
+   display: flex;   
+   justify-content: space-between;
+}
+
+.box1{
+   height: 100%;
+   width: 20%;
+   border: 1px solid rgb(21, 133, 21);
+   border-radius: 20px;
+   overflow: hidden;
+   background-color: black;
+   opacity: 0.8;
+}
+.numberdisplay{
+    height: 100%;
+    width: 100%;
+    word-wrap: break-word;
+   font-size: 4vh;
+   color: rgb(30, 160, 30);
+   text-shadow: 0 0 9px rgba(9, 240, 9, 0.774);
+}
+
+.box2{
+    height: 100%;
+   width: 60%;
+   border: 1px solid rgb(21, 133, 21);
+   border-radius: 20px;
+   display: flex;  
+  flex-direction: column;
+ background-color: black;
+ opacity: 0.8;
+}
+.box3{
+    height: 100%;
+   width: 20%;
+   border: 1px solid rgb(21, 133, 21);
+   border-radius: 20px;
+   overflow: hidden;
+   background-color: black;
+   opacity: 0.8;
+}
+
+.box2-parent{
+ width: 100%;
+ height: 40%;
+
+padding: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.username{
+    width: 100%;
+   padding: 1px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.username input{
+padding: 10px;
+border-radius: 5px;
+width: 70%;
+border: 1px solid rgb(21, 133, 21);
+background-color: black;
+color: rgb(30, 160, 30);
+}
+.mobile-no{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 10px;
+}
+
+.mobile-no input{
+    height: 20px;
+    width: 20px;
+    accent-color: rgb(30, 160, 30);
+    border: 2px solid rgb(48, 216, 48);
+    border-radius: 5px;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.mobile-no input:checked{
+    background-color: rgb(30, 160, 30);
+    padding: 1px;
+}
+
+.mobile-no label{
+    font-size: 30px;
+    color: rgb(30, 160, 30);
+    text-shadow: 0 0 9px rgba(46, 221, 46, 0.7);
+}
+.instagram{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 10px;
+}
+
+.instagram input{
+    height: 20px;
+    width: 20px;
+    accent-color: rgb(30, 160, 30);
+    border: 2px solid rgb(48, 216, 48);
+    border-radius: 5px;
+   -webkit-appearance: none;
+   appearance: none;
+}
+
+.instagram input:checked{
+    background-color: rgb(30, 160, 30);
+    padding: 1px;
+}
+
+.instagram label{
+    font-size: 30px;
+    color: rgb(30, 160, 30);
+    text-shadow: 0 0 5px rgba(30, 160, 30, 0.7);
+}
+.hack{
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 10px;
+    background-color: black;
+    color: rgb(22, 167, 22);
+    margin-top: 10px;
+    width: 50%;
+    cursor: pointer;
+    font-weight: bold;
+    text-shadow: 0 0 9px rgba(30, 160, 30, 0.7);
+}
+
+.display{
+    height:60%;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.display h1{
+    font-size: 4vh;
+    color: rgb(30, 160, 30);
+    text-shadow: 0 0 9px rgba(30, 160, 30, 0.7);
+    margin: 2px;
+}
+
+.done{
+    text-align: center;
+    font-size: 6vh;
+    margin-top: 20px;
+}   
+
+
+@media only screen and (max-width:800px){
+    .container{
+        flex-direction: column;
+    }
+    .username input{
+        width: 80%;
+    }
+    .box1{
+        width: 100%;
+        margin-bottom: 10px;
+        height: 40%;
+    }
+    .box2{
+        width: 100%;
+    }
+    .box3{
+        display: none;
+    }
+    .display h1{
+        font-size: 3.4vh;
+    }
+}
